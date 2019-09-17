@@ -1,0 +1,77 @@
+/*
+ una compañia alquila maquinaria la compañia tiene 10 tipos de maquinas disponibles para el el alquiler,
+de cada maquina tiene maquina tiene 5 hacer un programa para controlar el alquiler de dichas maquinas
+se necesita saber:
+* cuantas maquinas se han alquilado y cuantas quedan 
+* el costo de los alquileres en promedio y el total por día 20 millones
+* calcular por cada maquina costo, numero de maquinas por alquilar y numero de maquinas alquiladas,
+* total de maquinasel costo total y el promedio 
+tipo, descripcion, costo, cantidad
+total de alquiladas
+costo promedio; costo total; 
+ */
+package ejercicioclase;
+
+
+public class Maquina {
+   private String tipo;
+   private String descripcion;
+   private double costo;
+   private  int cantidad;
+   private double contadorMD;
+    public Maquina() {
+    }
+
+    public Maquina(String tipo, String descripcion, double costo, int cantidad, double contadorMD) {
+        this.tipo = tipo;
+        this.descripcion = descripcion;
+        this.costo = costo;
+        this.cantidad = cantidad;
+        this.contadorMD = contadorMD;
+    }
+
+    public void setContadorMD(double contadorMD) {
+        this.contadorMD = contadorMD;
+    }
+
+    public double getContadorMD() {
+        return contadorMD;
+    }
+
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public double getCosto() {
+        return costo;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = this.descripcion;
+    }
+
+    public void setCosto(double costo) {
+        this.costo = costo;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
+           }       
+   
+
+
